@@ -11,5 +11,5 @@ $ git clone
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Pdz927S.png)
+![](https://i.imgur.com/7kzhWCM.png)
 > 在同一視覺效果中使用多個標記類型的檢視

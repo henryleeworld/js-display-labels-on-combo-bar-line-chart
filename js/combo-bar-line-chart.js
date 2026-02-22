@@ -200,14 +200,14 @@ var config = {
             legend: {
                 position: 'bottom',
             },
-        },
-        title: {
-            display: true,
-            // text: 'Chart.js Combo Bar Line Chart'
-        },
-        tooltip: {
-            mode: 'index',
-            intersect: true
+            tooltip: {
+                mode: 'index',
+                intersect: true
+            },
+            title: {
+                display: true,
+                // text: 'Chart.js Combo Bar Line Chart'
+            }
         }
     }
 };
@@ -221,4 +221,6 @@ window.onload = function() {
 function done() {
     var url = window.comboBarLineChart.toBase64Image();
     document.getElementById("chart-url").src = url;
+    document.getElementById('chart-area').style.display = 'none';
+    document.getElementById('chart-url').classList.remove('d-none');
 }
